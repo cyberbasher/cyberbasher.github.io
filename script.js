@@ -32,9 +32,11 @@ const commands = {
     `,
     contact: `
     Contact Information:
-    - Email: stevin.ramesh@example.com
-    - LinkedIn: linkedin.com/in/stevinramesh
-    - GitHub: github.com/stevinramesh
+    - Email: cyberbasherr@gmail.com
+    - LinkedIn: Stevin Ramesh
+    - GitHub: cyberbasher
+    - tryhackme: stevinramesh
+    - Hack The Box: sjstevin
     `,
 };
 
