@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=SF+Mono&display=swap');
+
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: 'SF Mono', 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.terminal {
+    width: 80%;
+    max-width: 800px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+
+.terminal-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}
+
+.green {
+    background-color: #00ca4e;
+}
+
+.terminal-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+#terminal-content {
+    width: 65%;
+    overflow-y: auto;
+    white-space: pre-wrap;
+}
+
+#profile-image {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: grayscale(100%); /* Makes the image grayscale */
+}
+
+#terminal-input {
+    width: calc(100% - 2cm); /* Adjust the input field to account for image */
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    caret-color: #ffffff;
+    margin-left: 1cm;
+    padding: 10px;
+}
+
+/* Styling the link to be white */
+a {
+    color: #ffffff;
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
