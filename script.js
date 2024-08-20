@@ -26,9 +26,9 @@ const commands = {
     `,
     projects: `
     Projects:
-    1. Project A: [Description]
-    2. Project B: [Description]
-    3. Project C: [Description]
+    1. Project A: Password Cracking with Hashcat
+    2. Project B: Web Application Vulnerability Scanning
+    3. Project C: Network Traffic Analysis with Wireshark
     `,
     contact: `
     Contact Information:
